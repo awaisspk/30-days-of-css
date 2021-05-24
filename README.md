@@ -1,5 +1,3 @@
-# 100-days-of-css
-# 30-days-of-css
-# 30-days-of-css
-# 30-days-of-css
-# 30-days-of-css
+## Day1 
+
+Created a 5 start rating bar (followed a tutorial)
