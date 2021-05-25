@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -17,7 +17,7 @@ body {
   display: grid;
   height: 100%;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   place-items: center;
   background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
@@ -67,7 +67,7 @@ body {
 
 .wrapper .tooltip::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 8px;
   width: 8px;
   background-color: #ffffff;
