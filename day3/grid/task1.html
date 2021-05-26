@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid, devchallenge.io - Task 1</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 12px;
+        align-items: center;
+      }
+.task1 .item {
+  grid-column-start: 2;  
+  grid-column-end: 6;
+  grid-column: 2 / span ;
+}
+    </style>
+  </head>
+  <body>
+    <div class="task-1 container">
+      <header class="item">header</header>
+
+      <main class="item">main</main>
+
+      <footer class="item">footer</footer>
+    </div>
+  </body>
+</html>
